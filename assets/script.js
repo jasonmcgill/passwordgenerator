@@ -61,7 +61,7 @@ var passwordArray = [];
 		console.log(theRandomChar);
 		passwordArray.push(theRandomChar)
 	}
-	return (passwordArray.join(''));
+	return passwordArray.join('');
 }
 
 
