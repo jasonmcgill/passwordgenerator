@@ -53,14 +53,15 @@ function getPushedArray(randomArray) {
 	return randomArray [ Math.floor(Math.random() * (randomArray.length))];
 }
 
+var passwordArray = [];
+
 	for (var i = 0; i < passwordLength; i++) {
 		var theRandomArray = getPushedArray(selectedParameters);
 		var theRandomChar =  getPushedArray(theRandomArray);
-
 		console.log(theRandomChar);
-		
+		passwordArray.push(theRandomChar)
 	}
-	// return (theRandomChar);
+	return (passwordArray.join);
 }
 
 
